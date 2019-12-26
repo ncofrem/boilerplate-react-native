@@ -16,7 +16,7 @@
 ### Clonar proyecto
 Clonamos del repositorio el proyecto, para ello ejecutamos el comando:
 ```
-git clone
+git clone https://github.com/ncofrem/BoilerplateReactNative
 cd BoilerplateReactNative
 ```
 ### Instalar paquetes
