@@ -264,10 +264,12 @@ Agregamos el siguiente archivo en la raíz del proyecto
 	"files.autoSave": "onFocusChange",
 	"editor.formatOnSave": true,
 	"editor.formatOnType": true,
-	"eslint.autoFixOnSave": true,
 	"eslint.enable": true,
 	"prettier.singleQuote": true,
-	"editor.tabSize": 2
+	"editor.tabSize": 2,
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": true
+	}
 }
 ```
 Finalmente reiniciamos VSCode :sparkles:
