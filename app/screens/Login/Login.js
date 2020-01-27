@@ -20,8 +20,8 @@ class LoginScreen extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      email: 'ncofre@nnodes.com',
-      password: '12312312',
+      email: '',
+      password: '',
       modalVisible: false
     };
   }
@@ -46,7 +46,7 @@ class LoginScreen extends React.Component {
   };
 
   static navigationOptions = {
-    header: null
+    headerShown: false
   };
 
   handlePasswordRecovery(email) {

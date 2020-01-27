@@ -98,28 +98,30 @@ Ejecutamos nuestro proyecto
 ### Agregamos los siguientes paquetes
 
  - [ ] prop-types *(15.7.2)*
- - [ ] react-native-dropdownalert *(4.2.0)*
- - [ ] hoist-non-react-statics *(3.3.1)*
+ - [ ] react-native-dropdownalert *(4.2.1)*
+ - [ ] hoist-non-react-statics *(3.3.2)*
  - [ ] react-native-extended-stylesheet *(0.12.0)*
- - [ ] react-native-gesture-handler *(1.5.2)*
+ - [ ] react-native-gesture-handler *(1.5.3)*
  - [ ] react-native-vector-icons *(6.6.0)*
  - [ ] react-navigation *(4.0.10)*
- - [ ] react-navigation-stack *(1.10.3)*
- - [ ] react-navigation-tabs *(2.6.2)*
- - [ ] react-native-reanimated *(1.4.0)*
+ - [ ] react-navigation-stack *(2.0.16)*
+ - [ ] react-navigation-tabs *(2.7.0)*
+ - [ ] react-native-reanimated *(1.7.0)*
  - [ ] react-redux *(7.1.3)*
- - [ ] redux *(4.0.4)*
+ - [ ] redux *(4.0.5)*
  - [ ] redux-logger *(3.0.6)*
  - [ ] redux-saga *(1.1.3)*
- - [ ] @react-native-community/async-storage *(1.7.0)*
+ - [ ] @react-native-community/async-storage *(1.7.1)*
  - [ ] jwt-decode *(2.2.0)*
- - [ ] snakecase-keys *(3.1.0)*
+ - [ ] snakecase-keys *(3.1.1)*
+ - [ ] @react-native-community/masked-view *(0.1.6)*
+ - [ ] react-native-safe-area-context *(0.6.2)*
 
 > La versión actual de cada paquete con la que se probó este Boilerplate es la que se encuentra entre paréntesis.
 
 Comando para instalar todos los paquetes de la lista con su ultima versión:
 ```
-yarn add prop-types react-native-dropdownalert hoist-non-react-statics react-native-extended-stylesheet react-native-gesture-handler react-native-vector-icons react-navigation react-navigation-stack react-navigation-tabs react-native-reanimated react-redux redux redux-logger redux-saga @react-native-community/async-storage jwt-decode snakecase-keys
+yarn add prop-types react-native-dropdownalert hoist-non-react-statics react-native-extended-stylesheet react-native-gesture-handler react-native-vector-icons react-navigation react-navigation-stack react-navigation-tabs react-native-reanimated react-redux redux redux-logger redux-saga @react-native-community/async-storage jwt-decode snakecase-keys @react-native-community/masked-view react-native-safe-area-context
 ```
 Vereficamos que los paquetes agregados se estén *'autolinkeando'* correctamente, para ello volvemos a verificar que el proyecto esté funcionando correctamente en nuestras plataformas.
 
@@ -136,16 +138,16 @@ Utilizaremos la [guía de estilo de AirBnB](https://github.com/airbnb/javascript
 
 Para ello, agregaremos los siguientes paquetes en modo *dev*:
 
- - [ ] eslint *(6.7.2)*
+ - [ ] eslint *(6.8.0)*
  - [ ] eslint-config-airbnb *(18.0.1)*
- - [ ] eslint-plugin-import *(2.19.1)*
+ - [ ] eslint-plugin-import *(2.20.0)*
  - [ ] eslint-plugin-jsx-a11y *(6.2.3)*
- - [ ] eslint-plugin-react *(7.17.0)*
+ - [ ] eslint-plugin-react *(7.18.0)*
  - [ ] prettier *(1.19.1)*
- - [ ] eslint-config-prettier *(6.7.0)*
- - [ ] eslint-plugin-prettier *(3.1.1)*
- - [ ] husky *(3.1.0)*
- - [ ] lint-staged *(9.5.0)*
+ - [ ] eslint-config-prettier *(6.9.0)*
+ - [ ] eslint-plugin-prettier *(3.1.2)*
+ - [ ] husky *(4.2.1)*
+ - [ ] lint-staged *(10.0.3)*
  - [ ] pretty-quick *(2.0.1)*
 
 > La versión actual de cada paquete con la que se probó este Boilerplate es la que se encuentra entre paréntesis.
