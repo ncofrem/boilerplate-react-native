@@ -169,7 +169,7 @@ En nuestros archivos agregamos lo siguiente *(si el archivo no existe lo creamos
 	},
 	...
 	"lint-staged": {
-		"\_.{js,jsx}": [
+		"_.{js,jsx}": [
 			"pretty-quick --staged",
 			"eslint src/ --fix",
 			"git add"
